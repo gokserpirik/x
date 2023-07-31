@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+ 
+  .twitter-logo{
+    @apply px-4 w-20 h-20 lg:h-20 lg:w-20 ;
+  }
+  .twitter-container {
+    @apply bg-gray-light rounded-full ;
+  }
+  .twitter-sidebar {
+    @apply  flex flex-col items-center lg:items-start space-y-2 p-5 pt-0 lg:p-10 lg:pb-5 lg:pt-0 fixed top-0 left-0 h-screen w-32 lg:w-72 justify-between ;
+  }
+  .twitter-sidebar-item {
+    @apply flex flex-row items-center  first-letter:uppercase text-textcolor active:font-bold text-lg space-x-0 hover:bg-gray-light hover:rounded-full p-4  ;
+  }
+
+  .twitter-home{
+    @apply flex flex-col items-center space-y-2  min-h-screen w-10/12 xl:flex-1 border-x-2 border-gray-light;
+  }
+
+  .twitter-home-tweet{
+    @apply flex flex-row space-x-2 w-full border-b-2  px-5 py-2 border-gray-light;
+  }
+  
+  .twitter-followside{
+    @apply flex flex-col items-start space-y-14  p-5 pl-8 h-screen lg:w-5/12;
+  }
+
+
+
+}
+
+
+
+  
+
+
+
+
+
+

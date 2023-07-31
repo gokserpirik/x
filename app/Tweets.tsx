@@ -30,8 +30,8 @@ export default function Home() {
      // const data = await res.json()
      // setPosts(data)
 
-     /* uses static JSON instead of a MongoDB server */
-     const res = await fetch('/posts.json')
+     /* uses static JSON instead of a MongoDB server for gh-pages */
+     const res = await fetch('/x/posts.json')
       const data = await res.json()
       setPosts(data)
       console.log(posts.length)
